@@ -9,13 +9,29 @@
 
 .description {
   display: inherit;
-  justify-content: inherit;
+  justify-content: end;
   align-items: inherit;
   font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+
+}
+
+.headerNames{
+  color: inherit;
+  text-decoration: none;
+  margin: 0px 20px;
+  text-transform: uppercase;
 }
 
 .description a {
